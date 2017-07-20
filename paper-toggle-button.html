@@ -167,6 +167,8 @@ In order to apply the `Roboto` font to this element, make sure you've imported `
         /* The toggle button has an absolute position of -3px; The extra 1px
         /* accounts for the toggle button shadow box. */
         margin: 4px 1px;
+          
+        @apply --paper-toggle-button-toggle-container;
       }
 
       .toggle-label {
@@ -176,6 +178,8 @@ In order to apply the `Roboto` font to this element, make sure you've imported `
         padding-left: var(--paper-toggle-button-label-spacing, 8px);
         pointer-events: none;
         color: var(--paper-toggle-button-label-color, var(--primary-text-color));
+          
+        @apply --paper-toggle-button-label;
       }
 
       /* invalid state */
